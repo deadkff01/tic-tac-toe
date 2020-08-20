@@ -1,0 +1,18 @@
+.board {
+  width: 300px;
+  display: grid;
+  grid-template-columns: 100px 100px 100px;
+  grid-auto-rows: min-content;
+  position: relative;
+  margin: 0 auto;
+}
+
+.board .board-field {
+  border: 1px solid lightgray;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 40px;
+}
